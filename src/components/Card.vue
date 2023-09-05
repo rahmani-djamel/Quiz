@@ -7,7 +7,7 @@
             <p class="text-2xl font-bold">{{quiz.questions[NumberQuestion].question}}</p>
 
     <label
-       v-motion-roll-left
+     v-motion-roll-left
       v-for="(option, index) in quiz.questions[NumberQuestion].options"
       :key="index"
       :for="index"
