@@ -37,7 +37,37 @@ export let useQuizStore = defineStore('quiz',{
                         "F. Scott Fitzgerald"
                     ],
                     correctAnswer: "William Shakespeare"
-                }
+                },
+                {
+                    question: "What is the largest mammal on Earth?",
+                    options: [
+                      "Elephant",
+                      "Giraffe",
+                      "Blue Whale",
+                      "Lion"
+                    ],
+                    correctAnswer: "Blue Whale"
+                  },
+                  {
+                    question: "Which gas do plants absorb from the atmosphere during photosynthesis?",
+                    options: [
+                      "Nitrogen",
+                      "Oxygen",
+                      "Carbon Dioxide",
+                      "Hydrogen"
+                    ],
+                    correctAnswer: "Carbon Dioxide"
+                  },
+                  {
+                    question: "Who is credited with inventing the World Wide Web (WWW)?",
+                    options: [
+                      "Bill Gates",
+                      "Tim Berners-Lee",
+                      "Mark Zuckerberg",
+                      "Elon Musk"
+                    ],
+                    correctAnswer: "Tim Berners-Lee"
+                  }
             ]
         };
     }
