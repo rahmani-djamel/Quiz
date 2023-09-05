@@ -4,6 +4,9 @@ import { defineStore } from "pinia";
 export let useQuizStore = defineStore('quiz',{
     state(){
         return {
+            current:0,
+            correct:0,
+            incorrect:0,
             questions: [
                 {
                     question: "What is the capital of France?",
