@@ -11,7 +11,7 @@
     :delay="500"
       @click="toggleDark()"
       title="Contact Sale"
-      class="fixed z-90 bottom-3 lg:bottom-9 right-4 lg:right-8 dark:bg-white dark:text-yellow-400 bg-slate-600 w-16 h-16 rounded-full drop-shadow-lg text-white text-4xl hover:bg-cyan-700 hover:drop-shadow-2xl"
+      class="fixed z-90 bottom-2 lg:bottom-9  left-4 md:right-4 lg:right-8 dark:bg-white dark:text-yellow-400 bg-slate-600 w-16 h-16 rounded-full drop-shadow-lg text-white text-4xl hover:bg-cyan-700 hover:drop-shadow-2xl"
     >
       <svg v-if="!isDark" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-8 h-8 m-auto" viewBox="0 0 16 16">
         <path
